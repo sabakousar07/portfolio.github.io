@@ -1,0 +1,339 @@
+*
+{
+	margin:0px;
+	padding:0px;
+	font-family:arial;
+	box-sizing:border-box;
+}
+.clearfix::after
+{
+	content:"";
+	display:block;
+	clear:both;
+}
+
+#header
+{
+	width:100%;
+	min-height:50px;
+	background-color:black;
+}
+
+#brand
+{
+	width:25%;
+	min-height:50px;
+	color:white;
+	float:left;
+	line-height:50px;
+}
+#nav
+{
+	width:75%;
+	min-height:50px;
+	color:white;
+	float:right;
+	line-height:50px;
+}
+#nav a
+{
+	display:inline-block;
+	width:16%;
+	min-height:50px;
+	color:white;
+	text-align:center;
+	text-decoration:none;
+}
+#nav a:hover
+{
+	text-decoration:underline;
+}
+
+/* about section*/
+#about{
+
+width:100%;
+min-height:400px;
+background-color:lightblue;
+}
+
+
+#about .inner
+{
+	width:80%;
+	min-height:400px;
+	margin:auto;
+}
+#about .inner #image
+{
+	width:25%;
+	min-height:400px;
+	float:left;
+	padding-top:70px;
+}
+#about .inner #image img
+{
+	display:block;
+	width:80%;
+	margin:auto;
+	border:10px solid white;
+	margin-bottom:20px;
+}
+#about .inner #image p
+{
+	text-align:center;
+	font-size:24px;
+	font-family:georgia;
+}
+#about .inner #bio
+{
+	width:75%;
+	min-height:400px;
+	float:right;
+	padding-top:60px;
+}
+#about .inner #bio h2
+{
+	margin-bottom:20px;
+}
+#about .inner #bio p
+{
+	text-align:justify;
+	font-size:18px;
+	margin-bottom:70px;
+}
+#about .inner #bio a
+{
+	display:inline-block;
+	width:25%;
+	min-height:40px;
+	color:white;
+	background-color:black;
+	text-align:center;
+	line-height:40px;
+	text-decoration:none;
+	border-radius:10px;
+}
+/Qualification code/
+
+#qualification{
+	width:100%;
+	min-height:400px;
+	background-color:gray;
+	padding-top:20px;
+}
+#qualification h2{
+	text-align:center;
+	margin-bottom:20px;
+
+}
+#qualification table
+{
+	 width:70%;
+	min-height:200px;
+	margin:auto;
+	text-align:center;
+}
+#qualification table tr:nth-child(1)
+{
+	background-color:black;
+	color:white;
+	text-align:center;
+}
+#qualification table tr:nth-child(even)
+{
+	background-color:white;
+}
+
+/Skills code starts here/
+
+#skills{
+	width:100%;
+	min-height:400px;
+	background-color:lightgray;
+	padding-top:50px;
+}
+#skills h2{
+	text-align:center;
+	margin-bottom:50px;
+
+}
+#skills table
+{
+	 width:70%;
+	min-height:200px;
+	margin:auto;
+	text-align:center;
+}
+#skills table tr:nth-child(1)
+{
+	background-color:black;
+	color:white;
+	text-align:center;
+}
+#skills table tr:nth-child(even)
+{
+	background-color:white;
+}
+.contact
+{
+	position: relative;
+	min-height:100vh;
+	padding:50px 100px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	flex-direction:column;
+	background-size: cover;
+
+}
+.contact.content
+{
+	max-width:800px;
+	text-align:right;
+}
+.contact.content h2
+{
+	font-size:36px;
+    font-weight:500;
+	color:lightgray;
+}
+
+.container
+{
+	width:70%;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	margin-top:10px;
+}
+.container .ContactInfo
+{
+	width:50%;
+	display:flex;
+	flex-direction:column;
+
+}
+.container .ContactInfo .box
+{
+	margin-top:40px;
+	position: relative;
+	padding: 20px 0;
+	display: grid;
+}
+.container .ContactInfo .box .icon
+{
+	min-width: 30px;
+	height: 20px;
+	
+	display: flex;
+	justify-content: left;
+	align-items: left;
+	
+	font-size: 22px;
+}
+.container .ContactInfo .box .icon .text
+{
+	display:flex;
+	margin-left: 20px;
+	font-size: 20px;
+	color:lightblue;
+	flex-direction: column;
+	font-weight: 400;
+}
+.container .ContactInfo .box .icon .text .h3
+{
+	font-weight: 500;
+	color:#00bcd4;
+}
+
+
+  /* Style inputs */
+  input[type=text], select, textarea {
+	width: 100%;
+	padding: 12px;
+	border: 1px solid black;
+	margin-top: 6px;
+	margin-bottom: 16px;
+	resize: vertical;
+  }
+  
+  input[type=submit] {
+	background-color:black;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+	background-color: lightslategray;
+  }
+  
+  /* Style the container/contact section */
+  .container {
+	border-radius: 25px;
+	background-color: #f2f2f2;
+	padding: 10px;
+  }
+  
+  /* Create two columns that float next to eachother */
+  .column {
+	float: right;
+	width: 80%;
+	margin-top: 10px;
+	padding: 10px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+	content: "";
+	display: table;
+	clear: both;
+  }
+  
+  .social
+  {
+	width:100%;
+	margin: 0 auto;
+	text-align:center;
+	padding:40px;
+	padding-bottom: 0px;
+	border-top: 1px solid #eee;
+	margin-top: 10px;
+
+  }
+  .social a
+  {
+	font-size: 22px;
+	width:45px;
+	height:45px;
+	line-height:39px;
+	display:inline-block;
+	border-radius:80%;
+	border: 2px solid black;
+	box-shadow: 0px 0px opx 1px rgba(255,255,255,0.8);
+	margin: 10px;
+	color:black;
+	opacity:0.8;
+	transition: 0.3s ease-in-out;
+  }
+  .social a:hover 
+  {
+	opacity: 0.9;
+	box-shadow: 0px 1px 3px 2px rgba(255,255,255,0.9);
+  }
+  .copyright
+  {
+	text-align: center;
+	padding-top: 35px;
+	font-weight: 500;
+	opacity: 0.8;
+	font-size: 20px;
+  }
+  @media screen and (max-width: 600px) {
+	.column, input[type=submit] {
+	  width: 100%;
+	  margin-top: 0;
+	}
+  }
